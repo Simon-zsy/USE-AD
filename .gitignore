@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+data/
+checkpoints/
+results*/
+logs/
+figures/
+configs/server.local.yaml
+.pytest_cache/
+docs/provenance.json
+docs/validation_results.json
+docs/paper_checkpoint_incompatibility.json

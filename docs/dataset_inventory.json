@@ -1,0 +1,237 @@
+[
+  {
+    "dataset": "10_cover",
+    "samples": 286048,
+    "anomalies": 2747
+  },
+  {
+    "dataset": "11_donors",
+    "samples": 619326,
+    "anomalies": 36710
+  },
+  {
+    "dataset": "12_fault",
+    "samples": 1941,
+    "anomalies": 673
+  },
+  {
+    "dataset": "13_fraud",
+    "samples": 284807,
+    "anomalies": 492
+  },
+  {
+    "dataset": "14_glass",
+    "samples": 214,
+    "anomalies": 9
+  },
+  {
+    "dataset": "15_Hepatitis",
+    "samples": 80,
+    "anomalies": 13
+  },
+  {
+    "dataset": "16_http",
+    "samples": 567498,
+    "anomalies": 2211
+  },
+  {
+    "dataset": "17_InternetAds",
+    "samples": 1966,
+    "anomalies": 368
+  },
+  {
+    "dataset": "18_Ionosphere",
+    "samples": 351,
+    "anomalies": 126
+  },
+  {
+    "dataset": "19_landsat",
+    "samples": 6435,
+    "anomalies": 1333
+  },
+  {
+    "dataset": "1_ALOI",
+    "samples": 49534,
+    "anomalies": 1508
+  },
+  {
+    "dataset": "20_letter",
+    "samples": 1600,
+    "anomalies": 100
+  },
+  {
+    "dataset": "21_Lymphography",
+    "samples": 148,
+    "anomalies": 6
+  },
+  {
+    "dataset": "22_magic.gamma",
+    "samples": 19020,
+    "anomalies": 6688
+  },
+  {
+    "dataset": "23_mammography",
+    "samples": 11183,
+    "anomalies": 260
+  },
+  {
+    "dataset": "24_mnist",
+    "samples": 7603,
+    "anomalies": 700
+  },
+  {
+    "dataset": "25_musk",
+    "samples": 3062,
+    "anomalies": 97
+  },
+  {
+    "dataset": "26_optdigits",
+    "samples": 5216,
+    "anomalies": 150
+  },
+  {
+    "dataset": "27_PageBlocks",
+    "samples": 5393,
+    "anomalies": 510
+  },
+  {
+    "dataset": "28_pendigits",
+    "samples": 6870,
+    "anomalies": 156
+  },
+  {
+    "dataset": "29_Pima",
+    "samples": 768,
+    "anomalies": 268
+  },
+  {
+    "dataset": "2_annthyroid",
+    "samples": 7200,
+    "anomalies": 534
+  },
+  {
+    "dataset": "30_satellite",
+    "samples": 6435,
+    "anomalies": 2036
+  },
+  {
+    "dataset": "31_satimage-2",
+    "samples": 5803,
+    "anomalies": 71
+  },
+  {
+    "dataset": "32_shuttle",
+    "samples": 49097,
+    "anomalies": 3511
+  },
+  {
+    "dataset": "33_skin",
+    "samples": 245057,
+    "anomalies": 50859
+  },
+  {
+    "dataset": "34_smtp",
+    "samples": 95156,
+    "anomalies": 30
+  },
+  {
+    "dataset": "35_SpamBase",
+    "samples": 4207,
+    "anomalies": 1679
+  },
+  {
+    "dataset": "36_speech",
+    "samples": 3686,
+    "anomalies": 61
+  },
+  {
+    "dataset": "37_Stamps",
+    "samples": 340,
+    "anomalies": 31
+  },
+  {
+    "dataset": "38_thyroid",
+    "samples": 3772,
+    "anomalies": 93
+  },
+  {
+    "dataset": "39_vertebral",
+    "samples": 240,
+    "anomalies": 30
+  },
+  {
+    "dataset": "3_backdoor",
+    "samples": 95329,
+    "anomalies": 2329
+  },
+  {
+    "dataset": "40_vowels",
+    "samples": 1456,
+    "anomalies": 50
+  },
+  {
+    "dataset": "41_Waveform",
+    "samples": 3443,
+    "anomalies": 100
+  },
+  {
+    "dataset": "42_WBC",
+    "samples": 223,
+    "anomalies": 10
+  },
+  {
+    "dataset": "43_WDBC",
+    "samples": 367,
+    "anomalies": 10
+  },
+  {
+    "dataset": "44_Wilt",
+    "samples": 4819,
+    "anomalies": 257
+  },
+  {
+    "dataset": "45_wine",
+    "samples": 129,
+    "anomalies": 10
+  },
+  {
+    "dataset": "46_WPBC",
+    "samples": 198,
+    "anomalies": 47
+  },
+  {
+    "dataset": "47_yeast",
+    "samples": 1484,
+    "anomalies": 507
+  },
+  {
+    "dataset": "4_breastw",
+    "samples": 683,
+    "anomalies": 239
+  },
+  {
+    "dataset": "5_campaign",
+    "samples": 41188,
+    "anomalies": 4640
+  },
+  {
+    "dataset": "6_cardio",
+    "samples": 1831,
+    "anomalies": 176
+  },
+  {
+    "dataset": "7_Cardiotocography",
+    "samples": 2114,
+    "anomalies": 466
+  },
+  {
+    "dataset": "8_celeba",
+    "samples": 202599,
+    "anomalies": 4547
+  },
+  {
+    "dataset": "9_census",
+    "samples": 299285,
+    "anomalies": 18568
+  }
+]

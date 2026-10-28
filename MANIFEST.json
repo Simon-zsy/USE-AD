@@ -1,0 +1,209 @@
+{
+  "files": {
+    ".gitignore": {
+      "bytes": 204,
+      "sha256": "e2930f74aa810865481586d7156243a47336f0d140b386968762d9ae0e92bf27"
+    },
+    "README.md": {
+      "bytes": 3188,
+      "sha256": "7ec144cdc39050f489bd3527c0e30718707252c5ff5d4ab8f788bf05db456a49"
+    },
+    "benchmark.py": {
+      "bytes": 13331,
+      "sha256": "788e63a2839dbcc909a633c8e7afee0c3d0c527f0b1d11d72a3f138cd4557c19"
+    },
+    "config/__init__.py": {
+      "bytes": 650,
+      "sha256": "a818c3e9dd4f2d9c78be78674866ca33226e411936a355a589c7800d64c357b0"
+    },
+    "config/cli_utils.py": {
+      "bytes": 5785,
+      "sha256": "1b0ecdec4e5ed0c6e69c75fddc5e0b1ecf5c548e91ceb166bd3fe82af6ea7fde"
+    },
+    "config/config_schema.py": {
+      "bytes": 2450,
+      "sha256": "d84f52eca654b1f439ce9038ee1e2172d8424718011d3b8289da0caa9bb02108"
+    },
+    "config/experiment_schema.py": {
+      "bytes": 1365,
+      "sha256": "e107ffe297a7370a375d2ff64a56e3c58a333b388ccec555f480b83e32c6120d"
+    },
+    "config/method_registry.py": {
+      "bytes": 1998,
+      "sha256": "1d020bab18b9b27b2fa6b40f42296ab859479cf82ddd2aa02b0697379dea6bda"
+    },
+    "config/yaml_loader.py": {
+      "bytes": 686,
+      "sha256": "6f83e73e56c01b1c465a220e804aebc7a5d6e27c8bdb9758f252b70875947f78"
+    },
+    "configs/datasets_paper_rule.yaml": {
+      "bytes": 558,
+      "sha256": "05ad992c69d4d57bc8621faae83983dfd460bfcb4b7d5a17e147a81ee0deaf39"
+    },
+    "dataset.py": {
+      "bytes": 3618,
+      "sha256": "c387e48c95163ec1f01f66ac9d3ef731447963336e2bdf7cc153d3a9a10dc038"
+    },
+    "docs/DIFFERENCES.md": {
+      "bytes": 5800,
+      "sha256": "1ab79b251743c39f4d189e91aeac193833e37d57e269738b532e293942350a7c"
+    },
+    "docs/PAPER_CODE_MAP.md": {
+      "bytes": 1955,
+      "sha256": "b3b1bdd12046e38e3a3c2fedd4469c17cfe2ab31d5fedb2c54cc902eadf965b7"
+    },
+    "docs/VALIDATION.md": {
+      "bytes": 1314,
+      "sha256": "6eb70b23b0152e36e93477de6d85177154fbd84cf8760333b2543fc3dc8fb091"
+    },
+    "docs/dataset_inventory.json": {
+      "bytes": 3760,
+      "sha256": "56da0068831870a9f0f023e80469f5169e6f12af2a4e03396564a0ab7d53ae8f"
+    },
+    "docs/environment_observed.json": {
+      "bytes": 232,
+      "sha256": "4cb5e08c6cd31dd67384f7e4134b6bd2b342103831890971519fb75478e8d881"
+    },
+    "docs/experiments_recorded_reference.yaml": {
+      "bytes": 3907,
+      "sha256": "b6f1fbda390cb2a250e9733c090174c0b2ede48f43b65e431bb5cf87eb5189b9"
+    },
+    "docs/real_checkpoint_smoke.json": {
+      "bytes": 552,
+      "sha256": "8a8e840f346ec68f6bfeac2815e81b05645fc5ac0ffe74aae1696133650679ad"
+    },
+    "docs/source_manifest.json": {
+      "bytes": 3203,
+      "sha256": "e4ae66b6ede686c09e249d2cd11080daf550917d6459f69bf8869cd073841a36"
+    },
+    "exp_config.yaml": {
+      "bytes": 1806,
+      "sha256": "3b0e80b0d5b8e9bd35fd00ab97a8ad00ff8cf90287554e8818c6cef6630d3e1e"
+    },
+    "methods/__init__.py": {
+      "bytes": 452,
+      "sha256": "5b62a28ab6278ef31574bf0258f262458ffba5df0c9cb9a8ba2a8e3f84e81e05"
+    },
+    "methods/autogluon_base.py": {
+      "bytes": 3475,
+      "sha256": "dbc050a072e665fbba42e85e376c628fed2cc92f5af679fef9a4ac9c80d5f7ee"
+    },
+    "methods/base.py": {
+      "bytes": 1834,
+      "sha256": "784c68027af8569d07aed5834e38cac8866ff8a7ff0e8c9930b359877ced01c2"
+    },
+    "methods/catboost.py": {
+      "bytes": 1221,
+      "sha256": "0081f40f250919d85dac27b4953a3735305b4e66c2f0374a6e9b67212fc58977"
+    },
+    "methods/deepsad.py": {
+      "bytes": 8812,
+      "sha256": "3f1a660ea434574525dd7e4941a99faf07a77fe2b61be358a35d6413041af9ad"
+    },
+    "methods/devnet.py": {
+      "bytes": 7737,
+      "sha256": "2e3883304ea4c745e8cb875c806bfb70072a0690fedca7ebae494507dddc46a3"
+    },
+    "methods/feawad.py": {
+      "bytes": 8779,
+      "sha256": "e033ee7dc73dfbe5941d4a5aedcc4437b198f3f780284c199d0e85c7db13052e"
+    },
+    "methods/prenet.py": {
+      "bytes": 9486,
+      "sha256": "60be1e65e4c48bd7c76e934ab88b8cddbec470231f538ec3de8e76fb62059938"
+    },
+    "methods/random_forest.py": {
+      "bytes": 1332,
+      "sha256": "079dac62ceb06951ccb09a9fe951429c206d1c133dd88e1e786a7ec3c2682b33"
+    },
+    "methods/tabpfn.py": {
+      "bytes": 3547,
+      "sha256": "5166992591cdc5c28651bf3280916767fdfc4446cb55317ed25623258576aad2"
+    },
+    "methods/tabpfn_feawad.py": {
+      "bytes": 9880,
+      "sha256": "a9fbb798d72b25585dee5e80ea96305026e02df4ee98b5f1be4690e7b164b712"
+    },
+    "model/__init__.py": {
+      "bytes": 444,
+      "sha256": "5b6160913f3cace853d1dbfdc54ea0c38201698c332f301649b51094ec790176"
+    },
+    "model/autoencoder.py": {
+      "bytes": 1770,
+      "sha256": "0cf95a2dd8fe180965f06ed9b29c811fff302d9a371d0d340a6b53cdcb3cdc3f"
+    },
+    "model/deepsad.py": {
+      "bytes": 5350,
+      "sha256": "78e09c2d7b21edc37767c8270f57c4145b6f5b8ccc44e6861efe58923687d895"
+    },
+    "model/deviation_network.py": {
+      "bytes": 3811,
+      "sha256": "aa812e0cbbd12a9b5e831cb2fcb02cbea9a5f8e714aa0daefb27d108a9850ac8"
+    },
+    "model/fusion/__init__.py": {
+      "bytes": 261,
+      "sha256": "d3307e63cf66af6b2867b2544cc187670b27acb87259d4f303416c520def5d40"
+    },
+    "model/fusion/base.py": {
+      "bytes": 2263,
+      "sha256": "c11ba595108ba2c311f0e8e394f51961374d20ee9661e7284d14e8083a4a171a"
+    },
+    "model/fusion/concat_fusion.py": {
+      "bytes": 1062,
+      "sha256": "4c49e3cdce3fdad3bcfa4a24200e0b410a419358f790dd68a54aaf07cd414822"
+    },
+    "model/fusion/dynamic_proto_film_fusion.py": {
+      "bytes": 3356,
+      "sha256": "a217c12806b1c6670c57f725b3b3b5973da5dde58cf5fac6bf8416b0c2d2131c"
+    },
+    "model/fusion/proto_film_fusion.py": {
+      "bytes": 2868,
+      "sha256": "4b1d9584d7e1746f3df2f525a749fe4c6af74e3b1ce96f98f2bb5346c9a746b6"
+    },
+    "model/losses.py": {
+      "bytes": 3807,
+      "sha256": "250e98fc4fa5702c1e5504cd530c7840bbd90bae5a20ca9953140af7844300c5"
+    },
+    "model/prenet.py": {
+      "bytes": 1410,
+      "sha256": "24474d0a1617cdb8d12a4cfd9f09c3312a450dec5e9b91e986287e7f46703bc7"
+    },
+    "model/tabpfn_enhanced_deviation_network.py": {
+      "bytes": 4511,
+      "sha256": "c421772a20eeed90198e1153dc4cd5e6147adec3aa35eb0bd94b288d18346afd"
+    },
+    "overrides.yaml": {
+      "bytes": 188,
+      "sha256": "957d8c57d2f015923793bd95daa580d90bfc532abe2eecede7af7def38d39715"
+    },
+    "pyproject.toml": {
+      "bytes": 501,
+      "sha256": "e07d2f6e23a92aad94f6606f44df94bce92c4d0e1fc42c089bb36fda6a329840"
+    },
+    "scripts/plot_raw_results.py": {
+      "bytes": 1100,
+      "sha256": "81f3497730561158ac5d1c763fb9e18880fa3a715e83bdeb5913e8399a11c92b"
+    },
+    "scripts/run_paper.py": {
+      "bytes": 6256,
+      "sha256": "da886c747387147353306e1f1417d18b1d828e3dea3f3c458152a9fb7bb5e73a"
+    },
+    "scripts/summarize_results.py": {
+      "bytes": 2939,
+      "sha256": "f9dd29db09733a8072d774125b8a92a99f7844c26424d253a1487be5e1b586b6"
+    },
+    "tests/test_paper_protocol.py": {
+      "bytes": 7993,
+      "sha256": "418724f825d2874f18d42a8f6998269175bd85d561ce701a11860bda341f2112"
+    },
+    "utils.py": {
+      "bytes": 1626,
+      "sha256": "8ed84bcd90551ad7e8097878f103d6a03add347f110a13147a449b4fd897c510"
+    }
+  },
+  "source_hashes_unchanged": true,
+  "configurations_validated": 24,
+  "tests_passed": 9,
+  "real_checkpoint_smoke": "passed with explicit 192-D deviation",
+  "full_paper_experiments_executed": false
+}

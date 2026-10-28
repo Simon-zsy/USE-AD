@@ -1,0 +1,162 @@
+experiments:
+- name: feawad
+  method: feawad
+  args:
+    simplified_loss: true
+- name: devnet
+  method: devnet
+- name: tabpfn
+  method: tabpfn
+- name: catboost
+  method: catboost
+- name: random_forest
+  method: random_forest
+- name: prenet
+  method: prenet
+- name: deepsad
+  method: deepsad
+- name: tabpfn-feawad
+  method: tabpfn-feawad
+  args:
+    devnet_epochs: 50
+    learning_rate: 0.001
+    simplified_loss: true
+- name: tabpfn-feawad-rosas
+  method: tabpfn-feawad
+  args:
+    devnet_epochs: 50
+    learning_rate: 0.001
+    simplified_loss: true
+    use_rosas: true
+    rosas_lambda: 0.5
+- name: tabpfn-feawad-proto-film
+  method: tabpfn-feawad
+  args:
+    devnet_epochs: 50
+    learning_rate: 0.001
+    simplified_loss: true
+    fusion_strategy: proto_film
+- name: tabpfn-feawad-proto-film-dynamic
+  method: tabpfn-feawad
+  args:
+    devnet_epochs: 50
+    learning_rate: 0.001
+    simplified_loss: true
+    fusion_strategy: proto_film_dynamic
+- name: tabpfn-feawad-proto-film-dynamic-pdf
+  method: tabpfn-feawad
+  args:
+    devnet_epochs: 50
+    learning_rate: 0.001
+    simplified_loss: true
+    fusion_strategy: proto_film_dynamic
+    use_pdf: true
+- name: tabpfn-feawad-rosas-allpairs
+  method: tabpfn-feawad
+  args:
+    devnet_epochs: 50
+    learning_rate: 0.001
+    simplified_loss: true
+    use_rosas_allpairs: true
+    rosas_allpairs_k: 512
+    rosas_allpairs_lambda: 0.5
+- name: rosas-lam-005
+  method: tabpfn-feawad
+  args:
+    devnet_epochs: 50
+    learning_rate: 0.001
+    simplified_loss: true
+    fusion_strategy: proto_film_dynamic
+    use_rosas_allpairs: true
+    rosas_allpairs_k: 512
+    rosas_allpairs_lambda: 0.05
+- name: rosas-lam-01
+  method: tabpfn-feawad
+  args:
+    devnet_epochs: 50
+    learning_rate: 0.001
+    simplified_loss: true
+    fusion_strategy: proto_film_dynamic
+    use_rosas_allpairs: true
+    rosas_allpairs_k: 512
+    rosas_allpairs_lambda: 0.1
+- name: rosas-lam-02
+  method: tabpfn-feawad
+  args:
+    devnet_epochs: 50
+    learning_rate: 0.001
+    simplified_loss: true
+    fusion_strategy: proto_film_dynamic
+    use_rosas_allpairs: true
+    rosas_allpairs_k: 512
+    rosas_allpairs_lambda: 0.2
+- name: rosas-lam-03
+  method: tabpfn-feawad
+  args:
+    devnet_epochs: 50
+    learning_rate: 0.001
+    simplified_loss: true
+    fusion_strategy: proto_film_dynamic
+    use_rosas_allpairs: true
+    rosas_allpairs_k: 512
+    rosas_allpairs_lambda: 0.3
+- name: rosas-lam-05
+  method: tabpfn-feawad
+  args:
+    devnet_epochs: 50
+    learning_rate: 0.001
+    simplified_loss: true
+    fusion_strategy: proto_film_dynamic
+    use_rosas_allpairs: true
+    rosas_allpairs_k: 512
+    rosas_allpairs_lambda: 0.5
+- name: rosas-lam-07
+  method: tabpfn-feawad
+  args:
+    devnet_epochs: 50
+    learning_rate: 0.001
+    simplified_loss: true
+    fusion_strategy: proto_film_dynamic
+    use_rosas_allpairs: true
+    rosas_allpairs_k: 512
+    rosas_allpairs_lambda: 0.7
+- name: rosas-lam-10
+  method: tabpfn-feawad
+  args:
+    devnet_epochs: 50
+    learning_rate: 0.001
+    simplified_loss: true
+    fusion_strategy: proto_film_dynamic
+    use_rosas_allpairs: true
+    rosas_allpairs_k: 512
+    rosas_allpairs_lambda: 1.0
+- name: rosas-lam-20
+  method: tabpfn-feawad
+  args:
+    devnet_epochs: 50
+    learning_rate: 0.001
+    simplified_loss: true
+    fusion_strategy: proto_film_dynamic
+    use_rosas_allpairs: true
+    rosas_allpairs_k: 512
+    rosas_allpairs_lambda: 2.0
+- name: rosas-lam-30
+  method: tabpfn-feawad
+  args:
+    devnet_epochs: 50
+    learning_rate: 0.001
+    simplified_loss: true
+    fusion_strategy: proto_film_dynamic
+    use_rosas_allpairs: true
+    rosas_allpairs_k: 512
+    rosas_allpairs_lambda: 3.0
+- name: rosas-lam-50
+  method: tabpfn-feawad
+  args:
+    devnet_epochs: 50
+    learning_rate: 0.001
+    simplified_loss: true
+    fusion_strategy: proto_film_dynamic
+    use_rosas_allpairs: true
+    rosas_allpairs_k: 512
+    rosas_allpairs_lambda: 5.0

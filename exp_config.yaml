@@ -1,0 +1,100 @@
+experiments:
+- name: random_forest
+  method: random_forest
+  args: {}
+- name: catboost
+  method: catboost
+  args: {}
+- name: devnet
+  method: devnet
+  args: {}
+- name: feawad
+  method: feawad
+  args:
+    ae_epochs: 100
+    devnet_epochs: 30
+    learning_rate: 0.001
+    simplified_loss: true
+- name: prenet
+  method: prenet
+  args: {}
+- name: deepsad
+  method: deepsad
+  args: {}
+- name: tabpfn
+  method: tabpfn
+  args: {}
+- name: ours
+  method: tabpfn-feawad
+  args: {}
+- name: concat
+  method: tabpfn-feawad
+  args:
+    fusion_strategy: concat
+    use_rosas: false
+    use_pdf: false
+- name: static-proto
+  method: tabpfn-feawad
+  args:
+    fusion_strategy: proto_film
+    use_rosas: false
+    use_pdf: false
+- name: dynamic-proto
+  method: tabpfn-feawad
+  args:
+    use_rosas: false
+    use_pdf: false
+- name: rosas-only
+  method: tabpfn-feawad
+  args:
+    fusion_strategy: concat
+    use_pdf: false
+- name: pdf-only
+  method: tabpfn-feawad
+  args:
+    fusion_strategy: concat
+    use_rosas: false
+- name: dynamic-pdf
+  method: tabpfn-feawad
+  args:
+    use_rosas: false
+- name: lambda-0.05
+  method: tabpfn-feawad
+  args:
+    rosas_lambda: 0.05
+- name: lambda-0.1
+  method: tabpfn-feawad
+  args:
+    rosas_lambda: 0.1
+- name: lambda-0.2
+  method: tabpfn-feawad
+  args:
+    rosas_lambda: 0.2
+- name: lambda-0.3
+  method: tabpfn-feawad
+  args:
+    rosas_lambda: 0.3
+- name: lambda-0.5
+  method: tabpfn-feawad
+  args:
+    rosas_lambda: 0.5
+- name: lambda-0.7
+  method: tabpfn-feawad
+  args:
+    rosas_lambda: 0.7
+- name: lambda-1.0
+  method: tabpfn-feawad
+  args:
+    rosas_lambda: 1.0
+- name: lambda-2.0
+  method: tabpfn-feawad
+  args:
+    rosas_lambda: 2.0
+- name: lambda-3.0
+  method: tabpfn-feawad
+  args:
+    rosas_lambda: 3.0
+- name: lambda-5.0
+  method: tabpfn-feawad
+  args:
+    rosas_lambda: 5.0

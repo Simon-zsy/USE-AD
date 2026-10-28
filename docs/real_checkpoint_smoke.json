@@ -1,0 +1,19 @@
+{
+  "check": "real local checkpoint CPU smoke; explicit 192-dimensional variant",
+  "status": "passed_with_protocol_deviation",
+  "train_samples": 24,
+  "test_samples": 8,
+  "features": 4,
+  "ae_epochs": 1,
+  "joint_epochs": 1,
+  "batches_per_epoch": 1,
+  "batch_size": 4,
+  "tabpfn_estimators": 1,
+  "expected_tabpfn_dim": 192,
+  "observed_tabpfn_dim": 192,
+  "rosas_embedding_mode": "tabpfn",
+  "uses_rosas": true,
+  "uses_pdf": true,
+  "seconds": 8.322845458984375,
+  "note": "Interface/pipeline validation only; not a paper-accuracy reproduction"
+}

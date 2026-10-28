@@ -1,0 +1,10 @@
+runs: 10
+known_outliers: 8
+cont_rate: 0.02
+max_train_samples: 50000
+dataset_dir: data
+exclude_datasets: []
+output_dir: results
+log_dir: logs
+min_anomalies: 30
+contamination_policy: strict
